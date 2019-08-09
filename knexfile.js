@@ -14,6 +14,9 @@ module.exports = {
     // generate migration files in ./data/migrations/ folder
     migrations: {
       directory: './data/migrations'
+    },
+    seeds: {
+      directory: './data/seeds'
     }
   }
 };
